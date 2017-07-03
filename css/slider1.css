@@ -169,6 +169,8 @@
 .demo-1 .deco {
 	width: 260px;
 	height: 260px;
+	background-repeat: no-repeat;
+	background-position: center;
 	border-radius: 15px;
 	border: 2px  rgba(150,150,150,0.4);
 	border-radius: 50%;
