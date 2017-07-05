@@ -37,13 +37,14 @@
 	background: #fff !important;
 	color: #414141 !important;
 }
-.btn-glyphicon {
-        padding:8px; background:#ffffff; margin-right:4px;
- }
-
-
-.icon-btn {
-	padding: 1px 15px 3px 2px; border-radius:50px;
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
 }
 
 .color.white #page-title h2:before{
