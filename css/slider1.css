@@ -270,14 +270,22 @@
 
 /* First Slide */
 .demo-1 .bg-1 .sl-slide-inner,
-.demo-1 .bg-1 .sl-content-slice {
-	background: #0D47A1;
+.demo-1 .bg-1 .sl-content-slice {  
+	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(#0D47A1, #0D47A1, white); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0D47A1, #0D47A1, white); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0D47A1, #0D47A1, white); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0D47A1,white); /* Standard syntax */
 }
 
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
-	background: #000;
+	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(#0D47A1, #0D47A1, white); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0D47A1, #0D47A1, white); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0D47A1, #0D47A1, white); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#673AB7,white); /* Standard syntax */
 }
 
 .demo-1 .bg-2 [data-icon]:after,
@@ -292,7 +300,11 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #db84ad;
+	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(#0D47A1, #0D47A1, white); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0D47A1, #0D47A1, white); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0D47A1, #0D47A1, white); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#90A4AE,white); /* Standard syntax */
 }
 
 .demo-1 .bg-3 .deco {
@@ -321,6 +333,12 @@
 .demo-1 .bg-4 .sl-slide-inner,
 .demo-1 .bg-4 .sl-content-slice {
 	background: #5bc2ce;
+
+	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(#0D47A1, #0D47A1, white); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0D47A1, #0D47A1, white); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0D47A1, #0D47A1, white); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#5bc2ce,white); /* Standard syntax */
 }
 
 .demo-1 .bg-4 .deco {
@@ -348,6 +366,12 @@
 .demo-1 .bg-5 .sl-slide-inner,
 .demo-1 .bg-5 .sl-content-slice {
 	background: #ffeb41;
+	
+	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(#0D47A1, #0D47A1, white); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0D47A1, #0D47A1, white); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0D47A1, #0D47A1, white); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#ffeb41,white); /* Standard syntax */
 }
 
 .demo-1 .bg-5 .deco {
