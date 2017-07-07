@@ -5004,7 +5004,9 @@ a.badge:focus, a.badge:hover {
   border-color: #faf2cc;
   color: #8a6d3b;
 }
-
+hr {
+  border-top-color: #f7ecb5;
+}
 .alert-warning hr {
   border-top-color: #f7ecb5;
 }
