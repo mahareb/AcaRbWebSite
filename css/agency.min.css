@@ -32,3 +32,7 @@ hr {
 .nav-placeholder{
 	margin 0 0 40px 0;
 }
+#about{
+	background-color: #272727 ;
+	color: white;
+}
