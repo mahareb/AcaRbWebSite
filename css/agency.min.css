@@ -36,3 +36,18 @@ hr {
 	background-color: #272727 ;
 	color: white;
 }
+.service{
+	color: #ececec
+}
+.hoverred:hover{
+	color:#FC6D6D;
+}
+.hoverblue:hover{
+	color:#3ab0e2;
+}
+.hovergreen:hover{
+	color:#34d293;
+}
+.hoveryellow:hover{
+	color:#f7d861;
+}
