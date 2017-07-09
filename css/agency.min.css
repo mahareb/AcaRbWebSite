@@ -12,6 +12,15 @@ a.morelink {
 	text-decoration:none;
 	outline: none;
 }
+.prodsales {
+	
+	background-color: #009688 ;
+}
+
+.training {
+	
+	background-color:   #E9967A;
+}
 .morecontent span {
 	display: none;
 }
