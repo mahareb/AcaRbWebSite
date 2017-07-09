@@ -10,13 +10,11 @@
 
     <title>ACA ROBOTICS</title>
 
-    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Sliders CSS -->
-	<link href="css/slider1.css" rel="stylesheet">
-	<link href="css/slider2.css" rel="stylesheet">
-	<link href="css/slider3.css" rel="stylesheet">
+	<!-- Footer CSS -->
+	<link href="css/footer.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,8 +30,13 @@
 
 <body id="page-top">
 
+    
+    <center style="background-attachment: fixed;">
+        <img class="" src="img/ACAROBOTICS/logoSlide.png" />
+    </center>
+    <br><br><br>
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
+    <nav class="navbar navbar-toggleable-md navbar-inverse" id="mainNav" style="margin-bottom: 0">
         <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fa fa-bars"></i>
@@ -41,7 +44,7 @@
             <a class="navbar-brand" href="#page-top"><img src="img/ACAROBOTICS/LOGOO.png"/></a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-		    <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#about">Présentation</a>
                     </li>
                     <li class="nav-item">
@@ -60,98 +63,108 @@
             </div>
         </div>
     </nav>
-    <div id="home">
-
-		<div class="demo-1">
-
-	        <div id="slider" class="sl-slider-wrapper">
-
-				<div class="sl-slider">
-
-					<div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-						<div class="sl-slide-inner">
-							<div class="deco" style="background-image:url('img/slides/Slide1.png');"></div>
-							<h2>Leading the future</h2>
-						</div>
-					</div>
-
-					<div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-						<div class="sl-slide-inner">
-							<div class="deco" style="background-image:url('img/slides/Slide2.png');"></div>
-							<h2>AcaROBOTICS TECHNOLOGIES</h2>
-						</div>
-					</div>
-
-					<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-						<div class="sl-slide-inner">
-							<div class="deco" style="background-image:url('img/slides/Slide3.1.png');"></div>
-							<h2>FORMATIONS</h2>
-						</div>
-					</div>
-
-					<div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
-						<div class="sl-slide-inner">
-							<div class="deco" style="background-image:url('img/slides/Slide4.jpg');"></div>
-							<h2>Consulting</h2>
-						</div>
-					</div>
-
-					<div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
-						<div class="sl-slide-inner">
-							<div class="deco" style="background-image:url('img/slides/Slide5.jpg');"></div>
-							<h2>EVENEMENT</h2>
-						</div>
-					</div>
-				</div><!-- /sl-slider -->
-
-				<nav id="nav-arrows" class="nav-arrows">
-					<span class="nav-arrow-prev">Previous</span>
-					<span class="nav-arrow-next">Next</span>
-				</nav>
-
-				<nav id="nav-dots" class="nav-dots">
-					<span class="nav-dot-current"></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</nav>
-
-			</div><!-- /slider-wrapper -->
-			
-
-	    </div>
-	     <!-- About -->
+    <!-- Services -->
+    <section id="services" >
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-12 text-center scrollTop">
+                    <h2 class="section-heading">Services</h2>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="row text-center scrollBottom" style="margin-left: 200px;">
+                <div class="col-md-3">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                    </span>
+                    <h6 class="service-heading">Académique Robotique</h6>
+                    <hr>
+                    <p class="more" >AcaROBOTICS introduit les notions de la robotique et de la programmation aux enfants par des kits robotiques destinés à l’éducation. 
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                    </span>
+                    <h6 class="service-heading">Formations</h6>
+                    <hr>
+                    <p class="more" >AcaROBOTICS offre aux étudiants et aux professionnels des formations assurées par un groupe de formateurs qualifiés, afin d’améliorer leurs compétences techniques.</p>
+                </div>
+                <div class="col-md-3">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                    </span>
+                    <h6 class="service-heading red-border-bottom">Automatisation</h6>
+                    <hr>
+                    <p class="more" >Supervision</p>
+                </div>
+            </div>
+            <div class="row text-center scrollBottom">
+                <div class="col-md-3" >
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle-thin  fa-stack-2x text-primary"></i>
+                    </span>
+                    <h6 class="service-heading">Prototypage</h6>
+                    <hr>
+                    <p class="more" >AcaROBOTICS met à la disposition des sociétés et des clubs son atelier bien équipé (imprimante 3D, machine insoleuse, machine graveuse…) pour la conception et le test de leurs équipements.Comme elle assure une étude et intégration des solutions sur mesure répondants  au cahier des charges de client.</p>
+                </div>
+                <div class="col-md-3" >
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
+                    </span>
+                    <h6 class="service-heading">Evènements</h6>
+                    <hr>
+                    <p class="more" >
+                        AcaROBOTICS réunit les entreprises afin d’échanger les expériences et rapproche les étudiants au domaine de l’industrie. Elle assure des workshops, des conférences, des séminaires et des compétitions robotiques.
+                    </p>
+                </div>
+                <div class="col-md-3" >
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle-thin  fa-stack-2x text-primary"></i>
+                    </span>
+                    <h6 class="service-heading">Vision industrielle</h6>
+                    <hr>
+                    <p class="more" >Appliquer la vision par ordinateur au domaine de l’industrie : Automatiser le control de la production. Gérer le flux d’objets Guider un système mobile autonome (robot) quand sa destination n’est pas prédéfinie.</p>
+                </div>
+                <div class="col-md-3" >
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle-thin  fa-stack-2x text-primary"></i>
+                    </span>
+                    <h6 class="service-heading">Consulting</h6>
+                    <hr>
+                    <p class="more" >Amélioration de la performance de l’entreprise avec des cadres ayant un niveau Bac+ 5 et même plus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">ACAROBOTICS</h2>
-                   
+                    <h2 class="section-heading scrollTop">À PROPOS DE NOUS</h2>
                 </div>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
+                    <ul class="timeline scrollFast" >
+                        <li class="scrollRight">
                             <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                                <img class="rounded-circle img-fluid" src="img/description/description.jpg" alt="">
                             </div>
-                            <div class="timeline-panel">
+                            <div class="timeline-panel ">
                                 <div class="timeline-heading">
-                                    <h4>2016-2017</h4>
-                                    <h4 class="subheading">Description</h4>
+                                    <h4 class="subheading" >Description</h4>
                                 </div>
                                 <div class="timeline-body">
-					<br/>
-                                    <p class="text-muted">Implémentée dans technopole manouba, la société AcaROBOTICS est 
-crée le 09/05/2017. Elle est spécialisée dans la robotique académique, elle s’intéresse également à l’automatisme industriel.</p>
+                                    <p class="text-description">Implémentée dans technopole manouba, la société AcaROBOTICS est crée le 09/05/2017. Elle est spécialisée dans la robotique académique, elle s’intéresse également à l’automatisme industriel.</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li class="timeline-inverted scrollLeft">
                             <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                                <img class="rounded-circle img-fluid" src="img/description/vision.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -159,13 +172,13 @@ crée le 09/05/2017. Elle est spécialisée dans la robotique académique, elle 
                                     <h4 class="subheading">Vision</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Notre vision est d'assurer la sécurité et l'automatisation test fonctionnel Techniques </p>
+                                    <p class="text-description">Notre vision est d'assurer la sécurité et l'automatisation test fonctionnel Techniques. </p>
                                 </div>
                             </div>
                         </li> 
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                        <li class="scrollRight">
+                            <div class="timeline-image" >
+                                <img class="rounded-circle img-fluid" src="img/description/secteurs.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -173,25 +186,21 @@ crée le 09/05/2017. Elle est spécialisée dans la robotique académique, elle 
                                     <h4 class="subheading">Secteurs d’activité</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">AcaROBOTICS touche tous les domaines technologiques de la 
-robotique académique à la robotique industrielle. Elle a un savoir faire important concernant l’électronique. AcaROBOTICS dispose une gamme des cartes et des kits 
-robotiques qui répondent à toutes les demandes clients.</p>
+                                    <p class="text-description">AcaROBOTICS touche tous les domaines technologiques de la robotique académique à la robotique industrielle. Elle a un savoir faire important concernant l’électronique. AcaROBOTICS dispose une gamme des cartes et des kits robotiques qui répondent à toutes les demandes clients.</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li class="timeline-inverted scrollLeft">
                             <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                <img class="rounded-circle img-fluid" src="img/description/team.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <br/>
-				    <br/>
                                     <h4 class="subheading">Equipe</h4>
                                 </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">L’équipe de AcaROBOTICS est constitué des ingénieurs en mécatronique 
-jeunes, motivés et flexibles.</p>
+                                <div class="timeline-body ">
+                                    <p class="text-description">L’équipe de AcaROBOTICS est constitué des ingénieurs en mécatronique jeunes, motivés et flexibles.</p>
                                 </div>
                             </div>
                         </li>
@@ -202,81 +211,10 @@ jeunes, motivés et flexibles.</p>
         </div>
     </section>
 
-    <!-- Services -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Découvrons nos services .</h3>
-                </div>
-            </div>
-            <div class="row text-center" style="margin-left: 200px;">
-                <div class="col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Académique Robotique</h4>
-                    <p class="text-muted" >AcaROBOTICS introduit les notions de la robotique et de la programmation aux enfants par des kits robotiques destinés à l’éducation.</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Formations</h4>
-                    <p class="text-muted" >AcaROBOTICS offre aux étudiants et aux professionnels des formations assurées par un groupe de formateurs qualifiés, afin d’améliorer leurs compétences techniques.</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-microchip fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Automatisation</h4>
-                    <p class="text-muted" >Supervision</p>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-3" >
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-camera-retro fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Prototypage</h4>
-                    <p class="text-muted" >AcaROBOTICS met à la disposition des sociétés et des clubs son atelier bien équipé (imprimante 3D, machine insoleuse, machine graveuse…) pour la conception et le test de leurs équipements.Comme elle assure une étude et intégration des solutions sur mesure répondants  au cahier des charges de client.</p>
-                </div>
-                <div class="col-md-3" >
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Evènements</h4>
-                    <p class="text-muted" >
-                        AcaROBOTICS réunit les entreprises afin d’échanger les expériences et rapproche les étudiants au domaine de l’industrie. Elle assure des workshops, des conférences, des séminaires et des compétitions robotiques.
-                    </p>
-                </div>
-                <div class="col-md-3" >
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Vision industrielle</h4>
-                    <p class="text-muted" >Appliquer la vision par ordinateur au domaine de l’industrie : Automatiser le control de la production. Gérer le flux d’objets Guider un système mobile autonome (robot) quand sa destination n’est pas prédéfinie</p>
-                </div>
-		        <div class="col-md-3" >
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Consulting</h4>
-                    <p class="text-muted" >Amélioration de la performance de l’entreprise avec des cadres ayant un niveau Bac+ 5 et même plus.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Portfolio Grid -->
+<<<<<<< HEAD
     <section>
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -308,6 +246,61 @@ jeunes, motivés et flexibles.</p>
           <span class="dot" onclick="currentSlide(3)"></span> 
     </div>
    
+=======
+    <section class="bg-faded" id="formation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                   <h2 class="section-heading scrollTop">Formations</h2>
+                   <br><br><br><br>
+                </div>
+            </div>
+            <div class="row scrollBottom">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/formations/Arduino.jpg" alt="">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Arduino</h4>
+                        <p class="text-muted">Une formation Arduino aux débutants.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/formations/Raspberry.jpg" alt="">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>Raspberry Pi 3</h4>
+                        <p class="text-muted">Une formation Raspberry Pi 3.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/formations/stm32.jpg" alt="">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>STM32</h4>
+                        <p class="text-muted">Une formation STM32 F4.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+>>>>>>> 6c3511fb146931bd5827fd0ecd907c1db3a02169
     </section>
 	    
 	    <!-- Portfolio Grid -->
@@ -315,10 +308,11 @@ jeunes, motivés et flexibles.</p>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Produits</h2>
+                    <h2 class="section-heading scrollTop">Produits</h2>
+                    <br><br><br><br>
                 </div>
             </div>
-            <div class="row">
+            <div class="row scrollBottom">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <div class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                         <div class="portfolio-hover">
@@ -365,7 +359,7 @@ jeunes, motivés et flexibles.</p>
         </div>
     </section>
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -411,39 +405,63 @@ jeunes, motivés et flexibles.</p>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="container" style="text-align: justify;">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; <b>ACA ROBOTICS 2017</b></span>
+              <div class="col-md-4 col-sm-6 footerleft paddingtop-bottom ">
+                <a class="navbar-brand" href="#page-top"><img src="img/ACAROBOTICS/LOGOO.png"/></a><br><br><br>
+                <p style="">Implémentée dans technopole manouba, la société AcaROBOTICS est crée le 09/05/2017. Elle est spécialisée dans la robotique académique, elle s’intéresse également à l’automatisme industriel.</p>
+                <p><i class="fa fa-map-pin"></i> Technopole Manouba, Etablissement Administrative, Bureau 2, 2010 Mannouba, TUNISIE</p>
+                <p><i class="fa fa-phone"></i>  +216 99 999 999</p>
+                <p><i class="fa fa-envelope"></i> info@acarobotics.com</p>
+            </div>
+            <div class="col-md-2 col-sm-6 paddingtop-bottom">
+                <h6 class="heading7">GENERAL LINKS</h6>
+                <ul class="footer-ul">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Présentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formation">Formations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produit">Produits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 paddingtop-bottom">
+                <h6 class="heading7">Evenements</h6>
+                <div class="post">
+                  <p>Enicarthage ROBOTS <span>Décembre, 17</span></p>
+                  <p>CampTech <span>Camping de Technologie</span></p>
+                  <p>Aca-Junior <span>Compétition de robotique seulement pour enfants de 6 à 17 ans</span></p>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item">
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 footer-col paddingtop-bottom" style="text-align: left;">
+                <h6 class="heading7">Social Media</h6>
+                <ul class="footer-social">
+                    <li><i class="fa fa-linkedin social-icon linked-in" ></i></li>
+                    <li><i class="fa fa-facebook social-icon facebook" ></i></li>
+                    <li><i class="fa fa-twitter social-icon twitter" ></i></li>
+                    <li><i class="fa fa-google-plus social-icon google" ></i></li>
+                </ul>
             </div>
         </div>
     </footer>
 
-    <!-- Portfolio Modals -->
+    <div class="copyright" >
+      <div class="container">
+        <div class="col-md-6" >
+          <p>© Aca-Robotics Technologies. All Rights Reserved.</p>
+        </div>
+    </div>
+
+<!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -621,13 +639,12 @@ jeunes, motivés et flexibles.</p>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 offset-lg-2">
-                            <div class="modal-body">
+                            <div class="modal-body" >
                                 <!-- Project Details Go Here -->
                                 <h2>Capteur Temperature Arduino</h2>
                                 <img class="img-fluid d-block mx-auto" src="img/produit/cap_temperature_full.jpg" alt="">
                                 <p>Le capteur de température LM35 est un capteur analogique de température fabriqué par Texas Instruments. Il est extrêmement populaire en électronique, car précis, peu couteux, très simple d'utilisation et d'une fiabilité à toute épreuve.
 
-                                Le capteur de température LM35 est capable de mesurer des températures allant de -55°C à +150°C dans sa version la plus précise et avec le montage adéquat, de quoi mesurer n'importe quelle température.</p>
                                 <ul class="list-inline">
                                     <li>Vendeur: ACA Robotics </li>
                                     <li>Type : For Arduino</li>
@@ -640,6 +657,7 @@ jeunes, motivés et flexibles.</p>
             </div>
         </div>
     </div>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -655,11 +673,39 @@ jeunes, motivés et flexibles.</p>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    <script src="js/navbar.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 	<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 	<script type="text/javascript" src="js/jquery.slitslider.js"></script>
 	<script type="text/javascript" src="js/jquery.slides.js"></script>
+    <!-- Scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+        window.sr = ScrollReveal();
+        sr.reveal('.scrollTop',{
+            duration: 3500,
+            origin: 'top',
+            distance: '200px'
+        });
+        sr.reveal('.scrollBottom',{
+            duration: 3500,
+            origin:'bottom',
+            distance: '200px'
+        });
+        sr.reveal('.scrollRight',{
+            duration: 4000,
+            origin: 'right',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+        sr.reveal('.scrollLeft',{
+            duration: 4000,
+            origin: 'left',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+    </script>
 </body>
 
 </html>
