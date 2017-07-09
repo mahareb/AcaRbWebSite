@@ -17,7 +17,8 @@ a.morelink {
 }
 hr {
     border: none;
-    height: 1px;
+    height: 3px;
+    width: 150px;
     /* Set the hr color */
     color: red; /* old IE */
     background-color: red; /* Modern Browsers */
@@ -50,4 +51,24 @@ hr {
 }
 .hoveryellow:hover{
 	color:#f7d861;
+}
+.colorgreen{
+	color:#34d293;
+	background-color: #34d293;
+}
+.colorred{
+	color:#FC6D6D;
+	background-color: #FC6D6D;
+}
+.coloryellow{
+	color:#f7d861;
+	background-color: #f7d861;
+}
+.colorblue{
+	color:#3ab0e2;
+	background-color: #3ab0e2;
+}
+#academique{
+	background-image: url(img/services/RA1.png);
+	background-repeat:no-repeat;
 }
