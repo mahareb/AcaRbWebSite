@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	var showChar = 50;
 	var ellipsestext = "...";
-	var moretext = "more";
-	var lesstext = "less";
+	var moretext = "plus";
+	var lesstext = "moin";
 	$('.more').each(function() {
 		var content = $(this).html();
 		if(content.length > showChar) {
