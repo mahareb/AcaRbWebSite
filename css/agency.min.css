@@ -13,14 +13,11 @@ a.morelink {
 	outline: none;
 }
 .prodsales {
-	
+	color:white;
 	background-color: #009688 ;
 }
 
-.training {
-	
-	background-color:   #E9967A;
-}
+
 .morecontent span {
 	display: none;
 }
