@@ -84,7 +84,7 @@ body {
       font-weight: 400;
       padding: .75em 0;
       letter-spacing: 1px;
-      color: white;
+      color: black;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
