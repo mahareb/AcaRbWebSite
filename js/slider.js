@@ -1,13 +1,13 @@
 
     var curIndex = 0,
-        imgDuration = 3000,
+        imgDuration = 5000,
         slider = document.getElementById("slides"),
         slides = slider.childNodes;
         imgArray = [
+            'img/slides/slide4.jpg',
             'img/slides/slide1.jpg',
             'img/slides/slide2.jpg',
-            'img/slides/slide3.jpg',
-            'img/slides/slide4.jpg'
+            'img/slides/slide3.jpg'
             ];
     function buildSlideShow(arr) {
         for (i = 0; i < arr.length; i++) {
