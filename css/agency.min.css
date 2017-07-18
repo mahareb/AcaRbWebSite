@@ -82,7 +82,7 @@ hr {
 #slider{
 	position: relative;
 	overflow: hidden;
-	height: 700px;
+	height: 630px;
 }
 nav{
 	-webkit-box-shadow: 0 8px 6px -6px #999;
@@ -117,7 +117,7 @@ nav .navbar .navbar-toggleable-md .navbar-inverse{
     opacity:0;
 	float: left;
 	color: white;
-	margin: 420px 20px 0 150px;
+	margin: 380px 20px 0 150px;
 	bottom: 60px;
 	text-transform: uppercase;
 	background: url(../img/slides/pattern.png);
