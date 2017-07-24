@@ -13,7 +13,6 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Footer CSS -->
 	<link href="css/footer.css" rel="stylesheet">
-
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -21,25 +20,38 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="css/agency.min.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
+<a href="javascript:" id="return-to-top" title="Return To Top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
 <!-- Navigation -->
-    <nav class="navbar navbar-toggleable-md navbar-inverse scroll" id="mainNav" style="margin-bottom: 0">
+    <nav class="navbar navbar-toggleable-md navbar-inverse scroll navnav" id="mainNav" style="margin-bottom: 0">
         <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="#page-top"><a class="navbar-brand" href="#page-top"><img src="img/ACARobotics/logoo.png"/></a>
+            <a class="navbar-brand" id="logoimg" href="#page-top">
+                <picture>
+                    <source srcset="img/ACARobotics/smalllogoo.png" media="(max-width: 400px)" >
+                    <source srcset="img/ACARobotics/logo.png">
+                    <img id="imglogo" src="img/ACARobotics/logo.png"/>
+                </picture>
+            </a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Présentation</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#formation">Formations</a>
                     </li>
@@ -140,7 +152,7 @@
                 </div>
             </div>
             <br><br><br>
-            <div class="row text-center scrollBottom" style="margin-left: 200px;">
+            <div class="row text-center scrollBottom" id="service1" >
                 <div class="col-md-3">
                     <span class="fa-stack fa-5x">
                         <i class="fa fa-circle-thin fa-stack-2x service hoverblue" style="background-image: url(img/services/RA2.png);background-repeat:no-repeat;"></i>
@@ -330,8 +342,7 @@
         <div class="container" id="contactcontainer"><br><br><br>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contactez nous</h2>
-                    <h3 class="section-subheading text-muted">Contactez nous .</h3>
+                    <h2 class="section-heading">Contactez nous</h2><br><br><br>
                 </div>
             </div>
             <div class="row">
@@ -381,26 +392,6 @@
                 <p><i class="fa fa-phone"></i>  (+216) 54 439 097 / (+216) 21 970 031</p>
                 <p><i class="fa fa-envelope"></i> info@acarobotics.com</p>
             </div>
-            <div class="col-md-2 col-sm-6 paddingtop-bottom">
-                <h6 class="heading7">LIENS GÉNÉRAUX</h6>
-                <ul class="footer-ul">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">Présentation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#formation">Formations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#produit">Produits</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                </ul>
-            </div>
             <div class="col-md-3 col-sm-6 paddingtop-bottom">
                 <h6 class="heading7">événements</h6>
                 <div class="post">
@@ -423,9 +414,9 @@
 
     <div class="copyright" >
       <div class="container">
-        <div class="col-md-6" >
-          <p>© AcaROBOTICS Technologies. All Rights Reserved.</p>
-        </div>
+        <center style="margin-top: 5px;">
+          <p>© 2017 AcaROBOTICS Technologies. All Rights Reserved.</p>
+        </center>
     </div>
 
 <!-- Portfolio Modals -->
@@ -629,39 +620,7 @@
     <script type="text/javascript" src="js/navbar.js"></script>
     <!-- Scrollreveal -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-    <script type="text/javascript">
-        window.sr = ScrollReveal();
-        sr.reveal('.navbar',{
-            delay: 1500,
-            duration: 3500
-        });
-        sr.reveal('#slider',{
-            duration: 3500
-        });
-        sr.reveal('.scrollTop',{
-            duration: 4500,
-            origin: 'top',
-            distance: '200px'
-        });
-        sr.reveal('.scrollBottom',{
-            duration: 4500,
-            origin:'bottom',
-            distance: '200px'
-        });
-        sr.reveal('.scrollRight',{
-            duration: 4500,
-            origin: 'right',
-            distance: '300px',
-            viewFactor: 0.2
-        });
-        sr.reveal('.scrollLeft',{
-            duration: 4500,
-            origin: 'left',
-            distance: '300px',
-            viewFactor: 0.2
-        });
-    </script>
+    <script type="text/javascript" src="js/scroll.js"></script>
 </body>
 
 </html>

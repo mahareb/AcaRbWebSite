@@ -7,23 +7,22 @@
             'img/slides/slide4.jpg',
             'img/slides/slide1.jpg',
             'img/slides/slide2.jpg',
-            'img/slides/slide3.jpg'
+            'img/slides/slide3.jpg',
             ];
         capArray =[
-            'évenements <hr> <div>AcaROBOTICS réunit les enntreprises afin d’échanger les expériences et rapproche les étudiants au domaine de l’industrie. Elle assure des workshops, des conférences, des séminaires et des compétitions robotiques. </div>',
-            'AcaROBOTICS <hr> <div>LEADING THE FUTURE </div>',
-            'Consulting <hr> <div>Amélioration de la performance de l’entreprise aveec des cadres ayant un niveau Bac+ 5 et même plus.</div>',
-            'Fomations <hr> <div>AcaROBOTICS offre aux étudiants et aux professionnnels des formations assurées par un groupe de formateurs qualifiés, afin d’améliorer leurs compétences techniques. </div>',
-        ]
+            'Evénements <hr style="width:50%;margin-left:23%"> <div> Networking,learning and having fun with our special events. </div>',
+            'AcaROBOTICS <hr style="width:50%;margin-left:23%"> <div>LEADING THE FUTURE </div>',            
+            'Consulting <hr style="width:50%;margin-left:23%"> <div>Save your time, solve your problems with our experts.</div>',
+            'Fomations <hr style="width:50%;margin-left:23%"> <div>Improve  your knowledge, improve your life. </div>',
+        ];
     function buildSlideShow(imgArray,capArray) {
-        for (i = 0; i < imgArray.length; i++) {
+        for (i = 0; i < capArray.length; i++) {
             var img = document.createElement('img');
             img.src = imgArray[i];
             var cap = document.createElement('p');
             cap.innerHTML = capArray[i];
             slider.appendChild(img);
             slider.appendChild(cap);
-
         }
     }
     function slideShow() {

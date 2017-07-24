@@ -3243,7 +3243,9 @@ tbody.collapse.show {
   color: #636c72;
   white-space: nowrap;
 }
-
+.dropdown{
+  z-index:1000;
+}
 .dropdown-backdrop {
   position: fixed;
   top: 0;
